@@ -1,0 +1,27 @@
+{
+  "name": "nezlaya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-file": "^0.3.0",
+    "gulp-sass": "^3.1.0",
+    "jasmine": "^2.6.0",
+    "jquery": "^3.2.1",
+    "karma": "^1.7.0",
+    "sass": "^1.0.0-beta.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
+  }
+}
