@@ -8,8 +8,9 @@ router.get('/', function(req, res, next) {
 
 router.get('/:id', function(req, res, next) {
     books.map((book) => {
+
         if(book._id === req.params.id) {
-            res.send(books);
+            res.send(book);
             return;
         }
     })
