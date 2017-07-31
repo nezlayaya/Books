@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './components/books/all/books',
+    entry: './components/books/main',
 
     output: {
         filename: 'bundle.js'
